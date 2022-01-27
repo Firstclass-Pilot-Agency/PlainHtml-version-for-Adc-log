@@ -80,6 +80,14 @@ body {
     display: block;
     padding: 18px 15px;
 }
+.link-nav-button-m {
+    display: block;
+    padding: 010px 15px;
+    background: #20a4fd;
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
 .link-nav {
     margin-right: 40px;
 }
