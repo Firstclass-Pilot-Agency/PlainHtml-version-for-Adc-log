@@ -130,7 +130,7 @@
     .cans {
         height: fit-content;
         background: white;
-        box-shadow: 5px 5px 60px;
+        
         padding: 40px 0;
         padding-right: 100px;
         padding-left: 70px;
@@ -149,7 +149,6 @@
         height: fit-content;
         width: 250px;
         background-color: white;
-        box-shadow: 2px 2px 5px;
     }
     .comment{
         font-size: 15px;
