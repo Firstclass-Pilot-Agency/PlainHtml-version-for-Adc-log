@@ -1,0 +1,1 @@
+# PlainHtml-version-for-Adc-log
