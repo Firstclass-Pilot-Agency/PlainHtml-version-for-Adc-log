@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADC Logistics</title>
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+</head>
+<body>
+    <!-- Nav Section  -->
+     <div class="NavBar">
+          <div class="nav-wrapper">
+              <div class="logo-section">
+                  <a href="./index.html"><img src='./Styles/images/Logo.png' alt="" class="logo-main" /></a>
+              </div>
+              <div class="links-section">
+                  <div class="links-section-wrapper">
+                  <a href="" class="link-nav">
+                          Home
+                      </a>
+                      <a href="#3" class="link-nav">
+                          About us
+                      </a>
+                      <a href="#4" class="link-nav">
+                          Services
+                      </a>
+                      <a href="#6" class="link-nav">
+                          Locations
+                      </a>
+                      <a href="#6" class="link-nav">
+                          Contacts
+                      </a>
+                  </div>
+              </div>
+              <div class="user-section">
+                  <div class="button-signin">
+                      <a href="#" class="link-nav-button">
+                          Sign In
+                      </a>
+                  </div>
+                  <div class="ep">
+                    <button class="userBox" id='userbutton' onClick={dropdown}>
+                    <span class="iconify" data-icon="cif:us" style="color: white" data-width="34" data-height="15" ></span>
+                    
+                    </button>
+                    <div class="links-LogHub" id="menudrop">
+                        <h1 class='user-name'>Spider Man importer <br />
+                            <p class='email-user'>example@gmail.com</p>
+                        </h1>
+                        
+                        <button class="links-items">
+                            <span class="iconify-inline" data-icon="uil:user"></span>
+                            <p class="links-name">My Profile</p>
+                        </button>
+                        <Link to="/Logistics"><button class="links-items">
+                            <span
+                                class="iconify-inline"
+                                data-icon="fluent:data-trending-16-filled"
+                            ></span>
+                            <p class="links-name">My Logistics</p>
+                        </button></Link>
+                        <button class="links-items">
+                            <span
+                                class="iconify-inline"
+                                data-icon="iconoir:log-out"
+                            ></span>
+                            <p class="links-name">Log Out</p>
+                        </button>
+                    </div>
+                
+                </div>
+                  <div class="HamMenu">
+                      <span
+                          class="iconify-inline"
+                          data-icon="bx:bx-menu"
+                      ></span>
+                      <div class="dropdown">
+                      <a href='./index.html' class="link-nav-drop">
+                          Home
+                      </a>
+                          <a href="#2" class="link-nav-drop">
+                              About us
+                          </a>
+                          <a href="#3" class="link-nav-drop">
+                              Services
+                          </a>
+                          <a href="#6" class="link-nav-drop">
+                              Locations
+                          </a>
+                          <a href="#6" class="link-nav-drop">
+                              Contacts
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      
+    <!-- Home Section -->
+    <div class="HomeMain" id="1">
+        <div class="HomeMain-overlay">
+            <div class="HomeMain-wrap">
+                <h1 class="mainHeader">
+                    The New <span class="blue-mainHeader">Definition</span>
+                    <br /> of Logistics
+                </h1>
+                <p class="subHeader">
+                    ADC is your number one online <br />
+                    logistics site in  transport <br />
+                    items with the push of a button <br />
+                    anytime anywhere
+                </p>
+                <form action="">
+                <div class="track-button">
+                        <div class="input-tracking">
+                            <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID' />
+                            <div class="button-signin">
+                                <a href="#" class="link-nav-button">Search</a>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quality Section -->
+    <div class="Qualities" id="2">
+        <div class="Qualities-wrap">
+            <h1 class="mainHeader">
+                Get <span class="blue-mainHeader">Smooth</span>
+                Deliveries <br />
+                form Day One
+            </h1>
+            <p class="subHeader">
+                we use state of the act techs to give up smooth and easy experience
+            </p>
+        </div>
+        <div class="Qualities-boxes">
+            <div class="Qualities-wrap-box">
+                <div class="Qualities-box-subs">
+                    <div class="Qualities-sub-box">
+                        <span
+                            class="iconify"
+                            data-icon="icon-park-outline:speed-one"
+                            id="i-eeon"
+                        ></span>
+                    </div>
+                    <p class="title-Qualities-box">Quick Delivery</p>
+                </div>
+                <div class="Qualities-box-subs">
+                    <div class="Qualities-sub-box">
+                        <span
+                            class="iconify"
+                            data-icon="mdi:cash-lock"
+                            id="i-eeon"
+                        ></span>
+                    </div>
+                    <p class="title-Qualities-box">Secure Payments</p>
+                </div>
+                <div class="Qualities-box-subs">
+                    <div class="Qualities-sub-box">
+                        <span
+                            class="iconify"
+                            data-icon="fluent:eye-tracking-24-filled"
+                            id="i-eeon"
+                        ></span>
+                    </div>
+                    <p class="title-Qualities-box">Easy Tracking</p>
+                </div>
+                <div class="Qualities-box-subs">
+                    <div class="Qualities-sub-box">
+                        <span class="iconify" data-icon="carbon:van" id="i-eeon"></span>
+                    </div>
+                    <p class="title-Qualities-box">
+                        Fast Transportaton
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>              
+
+    <!-- About Section -->
+    <div class="AboutUS" id="3">
+        <div class="AboutUS-wrap">
+            <div class="aleft">
+                <div class="cans">
+                    <h1 class="mainHeader">
+                        Why Should You <br />
+                        <span class="blue-mainHeader">Pick Us</span>
+                    </h1>
+                    <p class="subHeader">
+
+                        <br />
+                        Technology and its application are fundamental at ADCL.
+                        We understand the role of technology in providing an
+                        exceptional customer experience. For this reason, our
+                        processes, products and services are built around modern
+                        technology to help us deliver your shipments cheaper,
+                        safely and at the speed of light.
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Secrvice Scetion -->
+    <div class="Services" id="4">
+        <div class="Services-wrap">
+            <h1 class="mainHeader">
+                Services That <br />
+                <span class="blue-mainHeader">Suits</span> You
+            </h1>
+            <p class="subHeader">
+                here are some of the services we offer to
+                give the best comfort during your transactions with
+                us
+
+            </p>
+            <div class="ServicePoints">
+                <div class="Service-point-wrap">
+                    <div class="absParent">
+                        <div class="Service-box">
+                            <div class="Service-box-wrap">
+                                <div class="foricon">
+                                    <span
+                                        class="iconify"
+                                        data-icon="fa-solid:shipping-fast"
+                                        id="i-eeone"
+                                    ></span>
+                                </div>
+                                <p class="box-service-header">
+                                    
+                                    Flash Shipping
+                                </p>
+                                <p class="extra-text">
+                                    Technology and its application are
+                                    fundamental at ADC. We understand the
+                                    role of technology in providing an
+                                    exceptional customer experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absParent">
+                        <div class="Service-box">
+                            <div class="Service-box-wrap">
+                                <div class="foricon">
+                                    <span
+                                        class="iconify"
+                                        data-icon="grommet-icons:shop"
+                                        id="i-eeone"
+                                    ></span>
+                                </div>
+                                <p class="box-service-header">
+                                    
+                                    E-commerce
+                                </p>
+                                <p class="extra-text">
+                                    Technology and its application are
+                                    fundamental at ADC. We understand the
+                                    role of technology in providing an
+                                    exceptional customer experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absParent">
+                        <div class="Service-box">
+                            <div class="Service-box-wrap">
+                                <div class="foricon">
+                                    <span
+                                        class="iconify"
+                                        data-icon="ic:outline-airplane-ticket"
+                                        id="i-eeone"
+                                    ></span>
+                                </div>
+                                <p class="box-service-header">
+                                    
+                                    Overseas Shipping
+                                </p>
+                                <p class="extra-text">
+                                    Technology and its application are
+                                    fundamental at ADC. We understand the
+                                    role of technology in providing an
+                                    exceptional customer experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absParent">
+                        <div class="Service-box">
+                            <div class="Service-box-wrap">
+                                <div class="foricon">
+                                    <span class="iconify" data-icon="ph:package-bold"
+                                        id="i-eeone"></span>
+                                </div>
+                                <p class="box-service-header">
+                                    Quick Quote
+                                </p>
+                                <p class="extra-text">
+                                    Technology and its application are
+                                    fundamental at ADC. We understand the
+                                    role of technology in providing an
+                                    exceptional customer experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comment Scetion -->
+    <div class="Testmo" id="5">
+        <div class="Services-wrap">
+            <h1 class="mainHeader">
+                Meet Our<br />
+                <span class="blue-mainHeader">Happy </span>Customers
+            </h1>
+            <p class="subHeader">
+                you comfort and happiness why you work with us is priceless.
+
+            </p>
+
+            <div class="tests">
+                <div class="t-wrap">
+                    <div class="t-box">
+                        <div class="t-wrap-box">
+                            <div class="img">
+                            <div class="img-tests"id="c">
+                                <img src={a} alt="" />
+                            </div>
+                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Owner of M C Automotive Repair, Paint & Body</span>
+                                <div class="t-name">
+                                    Mark Nielsen
+                                </div>
+                                <div class="comment">
+                                    
+                                I have been using ADC Delivery services since 2019. 
+                                As a small business owner I think it is important to 
+                                support our local businesses in Tucson. ADC delivery 
+                                has always been exceptional 
+                                and on time every time. Our business depends on timely 
+                                deliveries to make sure our customers vehicles are 
+                                completed as quoted. The staff at ADC are very courteous and knowledgeable.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <div class="t-wrap-box">
+                            <div class="img">
+                                <div class="img-tests"id="b">
+                                <img src={c} alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Distribution Supervisor</span>
+                                <div class="t-name">
+                                Garrett Ham    
+                                </div>
+                                <div class="comment">
+                                Great company! Love working with them. Thanks for your business..                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <div class="t-wrap-box">
+                            <div class="img" >
+                            <div class="img-tests" id="a">
+                                <img src={b} alt="" />
+                            </div>
+                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br /></span>
+                                <div class="t-name">
+                                Pat Connors
+                                </div>
+                                <div class="comment">
+                                These guys are GREAT. Fahad and her colleagues are completely professional and efficient. They make doing business with ADC a joy. After getting to know Fahad I doubt anyone will not enjoy her sense of humor!!! Great job and thanks for all that you do!!! 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <div class="t-wrap-box">
+                            <div class="img" >
+                            <div class="img-tests" id="a">
+                                <img src={b} alt="" />
+                            </div>
+                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />MAI Tucson</span>
+                                <div class="t-name">
+                                Dan Swango PhD
+                                </div>
+                                <div class="comment">
+                                My experience with the service and integrity of these folks is outstanding. They know their stuff and great service. , 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <div class="t-wrap-box">
+                            <div class="img" >
+                            <div class="img-tests" id="a">
+                                <img src={b} alt="" />
+                            </div>
+                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Store Owner</span>
+                                <div class="t-name">
+                                    Peter De La Rambelje
+                                </div>
+                                <div class="comment">
+                                If you need something delivered in a an efficient and effective manner, ADC Delivery Services is the answer. Friendly professional staff with owners that are hands on. Small or large they have the answer. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="Footer" id="6">
+    <div class="footer-wraper">
+        <div class="left">
+            <div class="FirstFooter">
+                <img src={logo} alt="" class="footerLogo" />
+                <p>© 2022 ADC Logistics</p>
+            </div>
+            <div class="SecondFooter">
+                <h1 class="fHeader">Company</h1>
+                <p class="subs-footer">About us</p>
+                <p class="subs-footer">Location</p>
+                <p class="subs-footer">Services</p>
+                <p class="subs-footer">Terms and Conditions</p>
+            </div>
+        </div>
+        <div class="rigth">
+            <h1 class="fHeader">Get in Touch</h1>
+            <div class="c-box">
+                <div class="c-left">
+                    <span class="iconify" style=' color: white; margin-bottom: 10px'  data-icon="uil:location-pin-alt" data-width="30"></span>
+                </div>
+                <div class="c-right">
+                    <p style=' color: white; font-weight:600'><span style=' color: gray; font-size: smaller'>Main office address: </span><br /> 325 West 38th Street, Garment District, New York, NY USA</p>
+                    <p style=' color: white; font-weight:600'
+                    ><span style=' color: gray; font-size: smaller'>Branch office address:</span> <br /> King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia </p>
+                </div>
+            </div>
+            <br /><br />
+            <div class="c-box">
+                <div class="c-left">
+                    <span class="iconify" style=' color: white; margin-bottom: 10px' data-icon="uil:outgoing-call" data-width="30"></span>
+                </div>
+                <div class="c-right">
+                    
+                    <p style='
+                        color: white;
+                        font-size: small;'>+17186184151 </p>
+                    <p style='
+                        color: white;
+                        font-size: small;'>+965 655525367  </p>
+                    <p style='
+                        color: white;
+                        font-size: small;'>+966 50 555 250 </p>
+                    <br />
+                </div>
+            </div>
+            <div class="c-box">
+                <div class="c-left">
+                    <span class="iconify" style= 'color: white; margin-bottom: 10px' data-icon="uil:fast-mail" data-width="30"></span>
+                </div>
+                <div class="c-right">
+                    <a href="mailto:dispatch@airsydelivery.com" style=' color: white'>dispatch@airsydelivery.com</a>
+                </div>
+            </div>
+            <br />
+            <div class="icons" style='display: grid; grid-template-columns: repeat(4, 50px)'>
+                <span class="iconify" data-icon="uil:twitter" style=' color: white;' data-width="30"></span>
+                <span class="iconify" data-icon="uil:facebook" style=' color: white;' data-width="30"></span>
+                <span class="iconify" data-icon="uil:instagram" style=' color: white;' data-width="30"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    document.getElementById('userbutton').addEventListener('click', () => {
+        document.getElementById('menudrop').style.display =  'block'
+        document.getElementById('menudrop').addEventListener('mouseleave', () => {
+            document.getElementById('menudrop').style.display =  'none'
+        })
+    })
+</script>
+</html>

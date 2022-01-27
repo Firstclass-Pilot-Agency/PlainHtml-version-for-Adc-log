@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADC | user</title>
+    <link rel="stylesheet" href="Styles/logistics.css">
+    <link rel="stylesheet" href="./Styles/index.css.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
+</head>
+<body>
+    <!-- Nav Section  -->
+     <div class="NavBar">
+          <div class="nav-wrapper">
+              <div class="logo-section">
+                  <a href="./index.html"><img src='./Styles/images/Logo.png' alt="" class="logo-main" /></a>
+              </div>
+              <div class="links-section">
+                  <div class="links-section-wrapper">
+                  <a href="" class="link-nav">
+                          Home
+                      </a>
+                      <a href="#3" class="link-nav">
+                          About us
+                      </a>
+                      <a href="#4" class="link-nav">
+                          Services
+                      </a>
+                      <a href="#6" class="link-nav">
+                          Locations
+                      </a>
+                      <a href="#6" class="link-nav">
+                          Contacts
+                      </a>
+                  </div>
+              </div>
+              <div class="user-section">
+                  <div class="button-signin">
+                      <a href="#" class="link-nav-button">
+                          Sign In
+                      </a>
+                  </div>
+                  <div class="ep">
+                    <button class="userBox" id='userbutton' onClick={dropdown}>
+                    <span class="iconify" data-icon="cif:us" style="color: white" data-width="34" data-height="15" ></span>
+                    
+                    </button>
+                    <div class="links-LogHub" id="menudrop">
+                        <h1 class='user-name'>Spider Man importer <br />
+                            <p class='email-user'>example@gmail.com</p>
+                        </h1>
+                        
+                        <button class="links-items">
+                            <span class="iconify-inline" data-icon="uil:user"></span>
+                            <p class="links-name">My Profile</p>
+                        </button>
+                        <Link to="/Logistics"><button class="links-items">
+                            <span
+                                class="iconify-inline"
+                                data-icon="fluent:data-trending-16-filled"
+                            ></span>
+                            <p class="links-name">My Logistics</p>
+                        </button></Link>
+                        <button class="links-items">
+                            <span
+                                class="iconify-inline"
+                                data-icon="iconoir:log-out"
+                            ></span>
+                            <p class="links-name">Log Out</p>
+                        </button>
+                    </div>
+                
+                </div>
+                  <div class="HamMenu">
+                      <span
+                          class="iconify-inline"
+                          data-icon="bx:bx-menu"
+                      ></span>
+                      <div class="dropdown">
+                      <a href='./index.html' class="link-nav-drop">
+                          Home
+                      </a>
+                          <a href="#2" class="link-nav-drop">
+                              About us
+                          </a>
+                          <a href="#3" class="link-nav-drop">
+                              Services
+                          </a>
+                          <a href="#6" class="link-nav-drop">
+                              Locations
+                          </a>
+                          <a href="#6" class="link-nav-drop">
+                              Contacts
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div class="logi">
+            <div class="wrap-logi">
+                <div class="Order">
+                    <div class="TextMainSection">
+                        <h1>My Orders</h1>
+                        <p>here are your activities relative to your packages. You can manage
+                            and track your packages from here.
+                        </p>
+                    </div>
+                    <div class="Trackid">
+                        <div class="input-tracking">
+                            <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID' />
+                            <div class="button-signin">
+                                <a href="#" class="link-nav-button">Search</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orderinfo">
+                        <div class="noidgiven">
+                            <h1 style='font-size:18px; color:gray'>No Tracking Id Given <span style='font-size:13px; color:rgb(230, 230, 230)'><p>enter an id to track</p></span> </h1>
+                        </div>
+                    </div>
+
+                    <div class="addOrder">
+                        <div class="pluswrap">
+                            <div class="plusbox">
+                                <span class="iconify" style='display:inline' data-icon="uil:plus" data-width="25"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+<script>
+    document.getElementById('userbutton').addEventListener('click', () => {
+        document.getElementById('menudrop').style.display =  'block'
+        document.getElementById('menudrop').addEventListener('mouseleave', () => {
+            document.getElementById('menudrop').style.display =  'none'
+        })
+    })
+</script>
+</html>
