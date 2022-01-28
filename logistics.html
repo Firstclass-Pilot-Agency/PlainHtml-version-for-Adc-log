@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADC | user</title>
-    <link rel="stylesheet" href="./Styles/logistics.css">
+    
     <link rel="stylesheet" href="./Styles/index.css">
     <link rel="stylesheet" href="./Styles/responsive.css">
+    <link rel="stylesheet" href="./Styles/logistics.css">
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
 
 </head>
@@ -127,7 +128,7 @@
 
                     <div class="addOrder">
                         <div class="pluswrap">
-                            <div class="plusbox">
+                            <div class="plusbox"  id="AddOrder">
                                 <span class="iconify" style='display:inline' data-icon="uil:plus" data-width="25"></span>
                             </div>
                         </div>
@@ -136,6 +137,75 @@
                 </div>
             </div>
     </div>
+    <div class="addOrderPage" id='orderPageSection'>
+        <div class="wrap-addorder">
+            <div class="orderHolder">
+                <div class="header-o">
+                    <div class="left-o-head">
+                        <h2>Order Info</h2>
+                <p style="padding-right: 30px; font-size: 12px;">Fill in the form below to send or create a new order
+                <br> <span style="font-weight: 600;">* are required fields</span>
+                </p>
+                    </div>
+                    <div class="right-o-head">
+                        <div class="box-close" id="back-arrow">
+                            <span  class="iconify" data-icon="uil:arrow-left" data-width="28"></span>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <form action="">
+                   
+                    <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:location-point" data-width="20"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Drop Location">
+                    </div>
+                    <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:user" data-width="20"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Receipients Full Name *">
+                    </div>
+                    <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:fast-mail" data-width="22"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Receipients Email">
+                    </div>
+                     <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:incoming-call" data-width="20"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Receipients Mobile Number *">
+                    </div>
+                    <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:pen" data-width="22"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Parcel Description *">
+                    </div>
+                    <div class="inputs-o">
+                        <div class="iconholder">
+                            <span class="iconify" data-icon="uil:parcel" data-width="22"></span>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Parcel Category *">
+                    </div>
+
+                    <div class="o-buttons-order">
+                        <button type="submit" class="o-button">
+                            Pick up
+                        </button>
+                        <button type="submit" class="o-button" id="DropOff-button">
+                            Drop off
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 <script>
     document.getElementById('userbutton').addEventListener('click', () => {
@@ -143,6 +213,14 @@
         document.getElementById('menudrop').addEventListener('mouseleave', () => {
             document.getElementById('menudrop').style.display =  'none'
         })
+    })
+    document.getElementById('AddOrder').addEventListener('click', () => {
+        document.getElementById('orderPageSection').style.display =  'grid'
+        
+    })
+    document.getElementById('back-arrow').addEventListener('click', () => {
+        document.getElementById('orderPageSection').style.display =  'none'
+        
     })
 </script>
 </html>
