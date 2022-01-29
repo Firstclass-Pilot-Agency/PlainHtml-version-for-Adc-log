@@ -126,7 +126,7 @@ body {
 .subHeader {
     padding-top: 30px;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     color: white;
 }
 
@@ -825,9 +825,8 @@ body {
     font-size: 12px;
 }
 .What-we-ship-wrap-box{
-    display: grid;
-    grid-template-areas: 'oo oo oo ss'
-                         'tt tt fo fi';
+    display: block;
+    
 }
 #o-o{
     grid-area: oo;

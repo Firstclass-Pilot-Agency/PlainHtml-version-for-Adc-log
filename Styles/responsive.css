@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1500px) {
+        .Who-ship-wrap-box{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+}
+}
 @media only screen and (min-width: 800px) {
     .NavBar,
     .HomeMain-overlay,
@@ -170,6 +176,11 @@
     }
     .Who-ship-wrap-box{
     display:grid;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(4, 200px);
+}
+.What-we-ship-wrap-box{
+    display: grid;
+    grid-template-areas: 'oo oo oo ss'
+                         'tt tt fo fi';
 }
 }
