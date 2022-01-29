@@ -106,7 +106,7 @@ body {
     background-position-x: 0vw;
 }
 .HomeMain-overlay,
-.Qualities, .What-we-ship {
+.Qualities, .What-we-ship, .What-who-ship {
     height: 94vh;
     background: rgba(0, 0, 0, 0.283);
     display: grid;
@@ -159,7 +159,7 @@ body {
 }
 
 /* Qualities */
-.Qualities, .What-we-ship {
+.Qualities, .What-we-ship , .What-who-ship{
     height: fit-content;
     background: black;
     margin-bottom: 80px;
@@ -843,4 +843,15 @@ body {
 }
 #o-fi{
     grid-area: fi;
+}
+.Who-ship-wrap-box{
+    display:grid;
+    grid-template-columns: repeat(2, 180px);
+}
+.companys{
+    height:80px;
+    width:150px;
+    margin:5px;
+    display: grid;
+    justify-content: center;
 }

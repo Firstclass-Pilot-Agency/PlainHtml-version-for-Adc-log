@@ -1,7 +1,7 @@
 @media only screen and (min-width: 800px) {
     .NavBar,
     .HomeMain-overlay,
-    .Qualities, .What-we-ship {
+    .Qualities, .What-we-ship,.What-who-ship {
         padding: 0 70px;
     }
     .links-LogHub {
@@ -164,4 +164,12 @@
         display: grid;
         grid-template-columns: 1.5fr 2fr;
     }
+    .What-who-ship{
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+    }
+    .Who-ship-wrap-box{
+    display:grid;
+    grid-template-columns: repeat(5, 200px);
+}
 }
