@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,101 +10,94 @@
     <link rel="stylesheet" href="./Styles/responsive.css">
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
 </head>
+
 <body>
     <!-- Nav Section  -->
-     <div class="NavBar">
-          <div class="nav-wrapper">
-              <div class="logo-section">
-                  <a href="./index.html"><img src='./Styles/images/Logo.png' alt="" class="logo-main" /></a>
-              </div>
-              <div class="links-section">
-                  <div class="links-section-wrapper">
-                  <a href="" class="link-nav">
-                          Home
-                      </a>
-                      <a href="#3" class="link-nav">
-                          About us
-                      </a>
-                      <a href="#4" class="link-nav">
-                          Services
-                      </a>
-                      <a href="#6" class="link-nav">
-                          Locations
-                      </a>
-                      <a href="#6" class="link-nav">
-                          Contacts
-                      </a>
-                  </div>
-              </div>
+    <div class="NavBar">
+        <div class="nav-wrapper">
+            <div class="logo-section">
+                <a href="./index.html"><img src='./Styles/images/Logo.png' alt="" class="logo-main" /></a>
+            </div>
+            <div class="links-section">
+                <div class="links-section-wrapper">
+                    <a href="" class="link-nav">
+                        Home
+                    </a>
+                    <a href="#3" class="link-nav">
+                        About us
+                    </a>
+                    <a href="#4" class="link-nav">
+                        Services
+                    </a>
+                    <a href="#6" class="link-nav">
+                        Locations
+                    </a>
+                    <a href="#6" class="link-nav">
+                        Contacts
+                    </a>
+                </div>
+            </div>
 
-              <div class="user-section">
-                  <div class="button-signin">
-                      <a href="./SignIn.html" class="link-nav-button">
-                          Sign In
-                      </a>
-                  </div>
-                  <div class="ep">
+            <div class="user-section">
+                <div class="button-signin">
+                    <a href="./SignIn.html" class="link-nav-button">
+                        Sign In
+                    </a>
+                </div>
+                <div class="ep">
                     <button class="userBox" id='userbutton' onClick={dropdown}>
-                    <span class="iconify" data-icon="cif:us" style="color: white" data-width="34" data-height="15" ></span>
-                    
+                        <span class="iconify" data-icon="cif:us" style="color: white" data-width="34"
+                            data-height="15"></span>
+
                     </button>
                     <div class="links-LogHub" id="menudrop">
                         <h1 class='user-name'>Spider Man importer <br />
                             <p class='email-user'>example@gmail.com</p>
                         </h1>
-                        
+
                         <button class="links-items">
                             <span class="iconify-inline" data-icon="uil:user"></span>
                             <p class="links-name">My Profile</p>
                         </button>
                         <a href="./logistics.html"><button class="links-items">
-                            <span
-                                class="iconify-inline"
-                                data-icon="fluent:data-trending-16-filled"
-                            ></span>
-                            <p class="links-name">My Logistics</p>
-                        </button></a>
+                                <span class="iconify-inline" data-icon="fluent:data-trending-16-filled"></span>
+                                <p class="links-name">My Logistics</p>
+                            </button></a>
                         <a href="./index.html">
-                        <button class="links-items">
-                            <span
-                                class="iconify-inline"
-                                data-icon="iconoir:log-out"
-                            ></span>
-                            <p class="links-name">Log Out</p>
-                        </button></a>
+                            <button class="links-items">
+                                <span class="iconify-inline" data-icon="iconoir:log-out"></span>
+                                <p class="links-name">Log Out</p>
+                            </button></a>
                     </div>
-                    
-                    </div>
+
+                </div>
                 <div class="HamMenu">
-                      <span
-                          class="iconify-inline"
-                          data-icon="bx:bx-menu"
-                      ></span>
-                      <div class="dropdown">
-                      <a href='./index.html' class="link-nav-drop">
-                          Home
-                      </a>
-                          <a href="#2" class="link-nav-drop">
-                              About us
-                          </a>
-                          <a href="#3" class="link-nav-drop">
-                              Services
-                          </a>
-                          <a href="#6" class="link-nav-drop">
-                              Locations
-                          </a>
-                          <a href="#6" class="link-nav-drop">
-                              Contacts
-                          </a>
-                      </div>
-                  </div>
-               </div>
-                  
-              </div>
-          </div>
+                    <span class="iconify-inline" data-icon="bx:bx-menu"></span>
+                    <div class="dropdown">
+                        <a href='./index.html' class="link-nav-drop">
+                            Home
+                        </a>
+                        <a href="#2" class="link-nav-drop">
+                            About us
+                        </a>
+                        <a href="#3" class="link-nav-drop">
+                            Services
+                        </a>
+                        <a href="#6" class="link-nav-drop">
+                            Locations
+                        </a>
+                        <a href="#6" class="link-nav-drop">
+                            Contacts
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
-      
+
     <!-- Home Section -->
     <div class="HomeMain" id="1">
         <div class="HomeMain-overlay">
@@ -114,19 +108,24 @@
                 </h1>
                 <p class="subHeader">
                     ADC is your number one online <br />
-                    logistics site in  transport <br />
+                    logistics site in transport <br />
                     items with the push of a button <br />
                     anytime anywhere
                 </p>
                 <form action="">
-                <div class="track-button">
-                        <div class="input-tracking">
+                    <div class="track-button">
+                        <!-- <div class="input-tracking">
                             <input type="text" name="" id="id-inputs" placeholder='Enter Tracking ID' />
                             <div class="button-signin">
                                 <a href="#" class="link-nav-button">Search</a>
                             </div>
+                        </div> -->
+                        <div class="button-signin">
+                            <a href="http://track.airsydelivery.com/index.php/track/" class="link-nav-button">
+                                Track Your Order
+                            </a>
                         </div>
-                </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -148,31 +147,19 @@
             <div class="Qualities-wrap-box">
                 <div class="Qualities-box-subs">
                     <div class="Qualities-sub-box">
-                        <span
-                            class="iconify"
-                            data-icon="icon-park-outline:speed-one"
-                            id="i-eeon"
-                        ></span>
+                        <span class="iconify" data-icon="icon-park-outline:speed-one" id="i-eeon"></span>
                     </div>
                     <p class="title-Qualities-box">Quick Delivery</p>
                 </div>
                 <div class="Qualities-box-subs">
                     <div class="Qualities-sub-box">
-                        <span
-                            class="iconify"
-                            data-icon="mdi:cash-lock"
-                            id="i-eeon"
-                        ></span>
+                        <span class="iconify" data-icon="mdi:cash-lock" id="i-eeon"></span>
                     </div>
                     <p class="title-Qualities-box">Secure Payments</p>
                 </div>
                 <div class="Qualities-box-subs">
                     <div class="Qualities-sub-box">
-                        <span
-                            class="iconify"
-                            data-icon="fluent:eye-tracking-24-filled"
-                            id="i-eeon"
-                        ></span>
+                        <span class="iconify" data-icon="fluent:eye-tracking-24-filled" id="i-eeon"></span>
                     </div>
                     <p class="title-Qualities-box">Easy Tracking</p>
                 </div>
@@ -186,7 +173,7 @@
                 </div>
             </div>
         </div>
-    </div>              
+    </div>
 
     <!-- About Section -->
     <div class="AboutUS" id="3">
@@ -234,14 +221,10 @@
                         <div class="Service-box">
                             <div class="Service-box-wrap">
                                 <div class="foricon">
-                                    <span
-                                        class="iconify"
-                                        data-icon="fa-solid:shipping-fast"
-                                        id="i-eeone"
-                                    ></span>
+                                    <span class="iconify" data-icon="fa-solid:shipping-fast" id="i-eeone"></span>
                                 </div>
                                 <p class="box-service-header">
-                                    
+
                                     Flash Shipping
                                 </p>
                                 <p class="extra-text">
@@ -257,14 +240,10 @@
                         <div class="Service-box">
                             <div class="Service-box-wrap">
                                 <div class="foricon">
-                                    <span
-                                        class="iconify"
-                                        data-icon="grommet-icons:shop"
-                                        id="i-eeone"
-                                    ></span>
+                                    <span class="iconify" data-icon="grommet-icons:shop" id="i-eeone"></span>
                                 </div>
                                 <p class="box-service-header">
-                                    
+
                                     E-commerce
                                 </p>
                                 <p class="extra-text">
@@ -280,14 +259,10 @@
                         <div class="Service-box">
                             <div class="Service-box-wrap">
                                 <div class="foricon">
-                                    <span
-                                        class="iconify"
-                                        data-icon="ic:outline-airplane-ticket"
-                                        id="i-eeone"
-                                    ></span>
+                                    <span class="iconify" data-icon="ic:outline-airplane-ticket" id="i-eeone"></span>
                                 </div>
                                 <p class="box-service-header">
-                                    
+
                                     Overseas Shipping
                                 </p>
                                 <p class="extra-text">
@@ -303,8 +278,7 @@
                         <div class="Service-box">
                             <div class="Service-box-wrap">
                                 <div class="foricon">
-                                    <span class="iconify" data-icon="ph:package-bold"
-                                        id="i-eeone"></span>
+                                    <span class="iconify" data-icon="ph:package-bold" id="i-eeone"></span>
                                 </div>
                                 <p class="box-service-header">
                                     Quick Quote
@@ -324,16 +298,17 @@
     </div>
 
     <!-- What we ship Section -->
-   
+
     <div class="What-we-ship" id="#">
         <div class="Qualities-wrap">
             <h1 class="mainHeader">
-                Products  <span class="blue-mainHeader">shipped</span>
-                 <br />
+                Products <span class="blue-mainHeader">shipped</span>
+                <br />
                 across
             </h1>
             <p class="subHeader">
-                Agro & Agro-Allied, Chemical, Oil & Gas, <br> FMCG, Manufacturing, Construction & Mining, <br> Maritime, Special Project Logistics.
+                Agro & Agro-Allied, Chemical, Oil & Gas, <br> FMCG, Manufacturing, Construction & Mining, <br> Maritime,
+                Special Project Logistics.
             </p>
         </div>
         <div class="Qualities-boxes">
@@ -366,7 +341,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Comment Scetion -->
     <div class="Testmo" id="5">
         <div class="Services-wrap">
@@ -384,22 +359,23 @@
                     <div class="t-box">
                         <div class="t-wrap-box">
                             <div class="img">
-                            <div class="img-tests"id="c">
-                                <img src='./Styles/images/1.jpg' alt="" />
-                            </div>
-                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Owner of M C Automotive Repair, Paint & Body</span>
+                                <div class="img-tests" id="c">
+                                    <img src='./Styles/images/1.jpg' alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Owner of M C
+                                    Automotive Repair, Paint & Body</span>
                                 <div class="t-name">
                                     Mark Nielsen
                                 </div>
                                 <div class="comment">
-                                    
-                                I have been using ADC Delivery services since 2019. 
-                                As a small business owner I think it is important to 
-                                support our local businesses in Tucson. ADC delivery 
-                                has always been exceptional 
-                                and on time every time. Our business depends on timely 
-                                deliveries to make sure our customers vehicles are 
-                                completed as quoted. The staff at ADC are very courteous and knowledgeable.
+
+                                    I have been using ADC Delivery services since 2019.
+                                    As a small business owner I think it is important to
+                                    support our local businesses in Tucson. ADC delivery
+                                    has always been exceptional
+                                    and on time every time. Our business depends on timely
+                                    deliveries to make sure our customers vehicles are
+                                    completed as quoted. The staff at ADC are very courteous and knowledgeable.
                                 </div>
                             </div>
                         </div>
@@ -407,79 +383,89 @@
                     <div class="t-box">
                         <div class="t-wrap-box">
                             <div class="img">
-                                <div class="img-tests"id="b">
-                                <img src='./Styles/images/3.jpg' alt="" />
+                                <div class="img-tests" id="b">
+                                    <img src='./Styles/images/3.jpg' alt="" />
                                 </div>
-                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Distribution Supervisor</span>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Distribution
+                                    Supervisor</span>
                                 <div class="t-name">
-                                Garrett Ham    
+                                    Garrett Ham
                                 </div>
                                 <div class="comment">
-                                Great company! Love working with them. Thanks for your business..                                 
+                                    Great company! Love working with them. Thanks for your business..
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="t-box">
                         <div class="t-wrap-box">
-                            <div class="img" >
-                            <div class="img-tests" id="a">
-                                <img src='./Styles/images/2.jpg' alt="" />
-                            </div>
-                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br /></span>
+                            <div class="img">
+                                <div class="img-tests" id="a">
+                                    <img src='./Styles/images/2.jpg' alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br /></span>
                                 <div class="t-name">
-                                Pat Connors
+                                    Pat Connors
                                 </div>
                                 <div class="comment">
-                                These guys are GREAT. Fahad and her colleagues are completely professional and efficient. They make doing business with ADC a joy. After getting to know Fahad I doubt anyone will not enjoy her sense of humor!!! Great job and thanks for all that you do!!! 
+                                    These guys are GREAT. Fahad and her colleagues are completely professional and
+                                    efficient. They make doing business with ADC a joy. After getting to know Fahad I
+                                    doubt anyone will not enjoy her sense of humor!!! Great job and thanks for all that
+                                    you do!!!
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="t-box">
                         <div class="t-wrap-box">
-                            <div class="img" >
-                            <div class="img-tests" id="a">
-                                <img src='./Styles/images/5.jpg'alt="" />
-                            </div>
-                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />MAI Tucson</span>
+                            <div class="img">
+                                <div class="img-tests" id="a">
+                                    <img src='./Styles/images/5.jpg' alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />MAI Tucson</span>
                                 <div class="t-name">
-                                Dan Swango PhD
+                                    Dan Swango PhD
                                 </div>
                                 <div class="comment">
-                                My experience with the service and integrity of these folks is outstanding. They know their stuff and great service. , 
+                                    My experience with the service and integrity of these folks is outstanding. They
+                                    know their stuff and great service. ,
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="t-box">
                         <div class="t-wrap-box">
-                            <div class="img" >
-                            <div class="img-tests" id="a">
-                                <img src='./Styles/images/6.jpg' alt="" />
-                            </div>
-                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Store Owner</span>
+                            <div class="img">
+                                <div class="img-tests" id="a">
+                                    <img src='./Styles/images/6.jpg' alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Store Owner</span>
                                 <div class="t-name">
                                     Peter De La Rambelje
                                 </div>
                                 <div class="comment">
-                                If you need something delivered in a an efficient and effective manner, ADC Delivery Services is the answer. Friendly professional staff with owners that are hands on. Small or large they have the answer. 
+                                    If you need something delivered in a an efficient and effective manner, ADC Delivery
+                                    Services is the answer. Friendly professional staff with owners that are hands on.
+                                    Small or large they have the answer.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="t-box">
                         <div class="t-wrap-box">
-                            <div class="img" >
-                            <div class="img-tests" id="a">
-                                <img src='https://images.unsplash.com/photo-1589234217365-08d3e0e5cf42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80' alt="" />
-                            </div>
-                            <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Store Owner</span>
+                            <div class="img">
+                                <div class="img-tests" id="a">
+                                    <img src='https://images.unsplash.com/photo-1589234217365-08d3e0e5cf42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
+                                        alt="" />
+                                </div>
+                                <span style='font-size:13px; color:gray; margin:0; padding:0;'><br />Store Owner</span>
                                 <div class="t-name">
                                     Peter De La Rambelje
                                 </div>
                                 <div class="comment">
-                                If you need something delivered in a an efficient and effective manner, ADC Delivery Services is the answer. Friendly professional staff with owners that are hands on. Small or large they have the answer. 
+                                    If you need something delivered in a an efficient and effective manner, ADC Delivery
+                                    Services is the answer. Friendly professional staff with owners that are hands on.
+                                    Small or large they have the answer.
                                 </div>
                             </div>
                         </div>
@@ -490,10 +476,10 @@
     </div>
 
     <div class="What-who-ship" id="#" style="background: white; margin:0;">
-        <div class="Qualities-wrap"  >
+        <div class="Qualities-wrap">
             <h1 class="mainHeader" style="color: black">
-               7<span class="blue-mainHeader">00+</span>
-                 <br />
+                7<span class="blue-mainHeader">00+</span>
+                <br />
             </h1>
             <p class="subHeader" style="color: black">
                 Businesses use ADC to <br> move their cargo across World.
@@ -520,8 +506,8 @@
                 <div class="companys">
                     <img src="./Styles/images/company logos/image 20.svg" alt="">
                 </div>
-                
-            
+
+
                 <div class="companys">
                     <img src="./Styles/images/company logos/image 23.svg" alt="">
                 </div>
@@ -540,11 +526,11 @@
                 <div class="companys">
                     <img src="./Styles/images/company logos/Honeywell_logo 1.svg" alt="">
                 </div>
-                
-                
-              
-                
-                
+
+
+
+
+
 
             </div>
         </div>
@@ -557,13 +543,19 @@
                 <div class="FirstFooter">
                     <img src='./Styles/images/Logo.png' alt="" class="footerLogo" />
                     <p>Copyright 2022. ADC logistics <br>
-                    All right reserved.</p>
+                        All right reserved.</p>
                 </div>
                 <div class="SecondFooter">
                     <h1 class="fHeader">Company</h1>
-                    <a href="#3"><p class="subs-footer">About us</p></a>
-                    <a href="#6"><p class="subs-footer">Location</p></a>
-                    <a href="#4"><p class="subs-footer">Services</p></a>
+                    <a href="#3">
+                        <p class="subs-footer">About us</p>
+                    </a>
+                    <a href="#6">
+                        <p class="subs-footer">Location</p>
+                    </a>
+                    <a href="#4">
+                        <p class="subs-footer">Services</p>
+                    </a>
                     <p class="subs-footer">Terms and Conditions</p>
                 </div>
             </div>
@@ -571,27 +563,32 @@
                 <h1 class="fHeader">Get in Touch</h1>
                 <div class="c-box">
                     <div class="c-left">
-                        <span class="iconify" style=' color: white; margin-bottom: 10px'  data-icon="uil:location-pin-alt" data-width="30"></span>
+                        <span class="iconify" style=' color: white; margin-bottom: 10px'
+                            data-icon="uil:location-pin-alt" data-width="30"></span>
                     </div>
                     <div class="c-right">
-                        <p style=' color: white; font-weight:600'><span style=' color: gray; font-size: smaller'>Main office address: </span><br /> 325 West 38th Street, Garment District, New York, NY USA</p>
-                        <p style=' color: white; font-weight:600'
-                        ><span style=' color: gray; font-size: smaller'>Branch office address:</span> <br /> King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi Arabia </p>
+                        <p style=' color: white; font-weight:600'><span style=' color: gray; font-size: smaller'>Main
+                                office address: </span><br /> 325 West 38th Street, Garment District, New York, NY USA
+                        </p>
+                        <p style=' color: white; font-weight:600'><span style=' color: gray; font-size: smaller'>Branch
+                                office address:</span> <br /> King Fahed Road, Tamkeen Tower, 6th floor, Riyadh, Saudi
+                            Arabia </p>
                     </div>
                 </div>
                 <br /><br />
                 <div class="c-box">
                     <div class="c-left">
-                        <span class="iconify" style=' color: white; margin-bottom: 10px' data-icon="uil:outgoing-call" data-width="30"></span>
+                        <span class="iconify" style=' color: white; margin-bottom: 10px' data-icon="uil:outgoing-call"
+                            data-width="30"></span>
                     </div>
                     <div class="c-right">
-                        
+
                         <p style='
                             color: white;
                             font-size: small;'>+17186184151 </p>
                         <p style='
                             color: white;
-                            font-size: small;'>+965 655525367  </p>
+                            font-size: small;'>+965 655525367 </p>
                         <p style='
                             color: white;
                             font-size: small;'>+966 50 555 250 </p>
@@ -600,7 +597,8 @@
                 </div>
                 <div class="c-box">
                     <div class="c-left">
-                        <span class="iconify" style= 'color: white; margin-bottom: 10px' data-icon="uil:fast-mail" data-width="30"></span>
+                        <span class="iconify" style='color: white; margin-bottom: 10px' data-icon="uil:fast-mail"
+                            data-width="30"></span>
                     </div>
                     <div class="c-right">
                         <a href="mailto:dispatch@airsydelivery.com" style=' color: white'>dispatch@airsydelivery.com</a>
@@ -608,9 +606,9 @@
                 </div>
                 <br />
                 <div class="icons" style='display: grid; grid-template-columns: repeat(4, 50px)'>
-                    <span class="iconify" data-icon="uil:twitter" style=' color: white;' data-width="30"></span>
-                    <span class="iconify" data-icon="uil:facebook" style=' color: white;' data-width="30"></span>
-                    <span class="iconify" data-icon="uil:instagram" style=' color: white;' data-width="30"></span>
+                    <span class="iconify" data-icon="uil:twitter" style=' color: white;' data-width="24"></span>
+                    <span class="iconify" data-icon="uil:facebook" style=' color: white;' data-width="24"></span>
+                    <span class="iconify" data-icon="uil:instagram" style=' color: white;' data-width="24"></span>
                 </div>
             </div>
         </div>
@@ -618,10 +616,11 @@
 </body>
 <script>
     document.getElementById('userbutton').addEventListener('click', () => {
-        document.getElementById('menudrop').style.display =  'block'
+        document.getElementById('menudrop').style.display = 'block'
         document.getElementById('menudrop').addEventListener('mouseleave', () => {
-            document.getElementById('menudrop').style.display =  'none'
+            document.getElementById('menudrop').style.display = 'none'
         })
     })
 </script>
+
 </html>
